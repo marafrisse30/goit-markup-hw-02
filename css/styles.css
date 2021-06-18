@@ -1,5 +1,6 @@
 :root {
   --accent-color: #2196f3;
+  --black-title-color: #212121;
 }
 
 body {
@@ -16,10 +17,10 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-span {
-  color: #212121;
+  color:var(--black-title-color)
 }
 .logo-span-white {
   color: #ffffff;
@@ -38,7 +39,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--black-title-color)
 }
 
 .menu-link:hover,
@@ -93,7 +94,7 @@ body {
   cursor: pointer;
   color: #ffffff;
 
-  background: #2196f3;
+  background: var(--accent-color)
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -126,7 +127,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black-title-color)
 }
 .team-title {
   font-weight: bold;
@@ -134,6 +135,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--black-title-color)
 }
 .team-name {
   font-weight: 500;
@@ -142,7 +144,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black-title-color)
 }
 .team-profession {
   font-weight: 400;
@@ -168,24 +170,24 @@ body {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color:var(--black-title-color)
 }
 
 .category-list-button {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--black-title-color)
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  background-color: #f5f4fa;
+  background-color: #F5F4FA;
 }
 .category-list-button:hover,
 .category-list-button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var (var(--accent-color))
 }
 /* footer */
 .footer-address {
