@@ -1,6 +1,7 @@
 :root {
   --accent-color: #2196f3;
   --black-title-color: #212121;
+  --product-item-name-color: #757575;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   color: var(--accent-color);
 }
 .logo-span {
-  color:var(--black-title-color)
+  color: var(--black-title-color);
 }
 .logo-span-white {
   color: #ffffff;
@@ -39,7 +40,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--black-title-color)
+  color: var(--black-title-color);
 }
 
 .menu-link:hover,
@@ -51,14 +52,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--product-item-name-color);
 }
 .mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--product-item-name-color);
 }
 .tel-link:hover,
 .tel-link:focus {
@@ -87,14 +88,13 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  color: #ffffff;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
   cursor: pointer;
-  color: #ffffff;
-
-  background: var(--accent-color)
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -111,7 +111,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color:var(--black-title-color)
+  color: var(--black-title-color);
 }
 .advantage-text {
   font-weight: 400;
@@ -127,7 +127,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--black-title-color)
+  color: var(--black-title-color);
 }
 .team-title {
   font-weight: bold;
@@ -135,7 +135,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-title-color)
+  color: var(--black-title-color);
 }
 .team-name {
   font-weight: 500;
@@ -144,7 +144,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: var(--black-title-color)
+  color: var(--black-title-color);
 }
 .team-profession {
   font-weight: 400;
@@ -153,7 +153,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--product-item-name-color);
 }
 /* portfolio main */
 .product-item-name {
@@ -161,7 +161,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--product-item-name-color);
 }
 .product-item-suptitle {
   font-weight: 700;
@@ -170,24 +170,24 @@ body {
 
   letter-spacing: 0.06em;
 
-  color:var(--black-title-color)
+  color: var(--black-title-color);
 }
 
 .category-list-button {
   font-family: 'Roboto', sans-serif;
-  color: var(--black-title-color)
+  color: var(--black-title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .category-list-button:hover,
 .category-list-button:focus {
   color: #ffffff;
-  background-color: var (var(--accent-color))
+  background-color: var(--accent-color);
 }
 /* footer */
 .footer-address {
